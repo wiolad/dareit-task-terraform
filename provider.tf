@@ -1,5 +1,5 @@
 provider "google" {
-  project = "YOU_GCP_PROJECT_ID"
+  project = "weighty-replica-378016"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
