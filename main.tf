@@ -1,3 +1,10 @@
+resource "google_storage_bucket" "static" {
+ project       = "weighty-replica-378016"
+ name          = "bucket-tf-wd-ci"
+ location      = "europe-central2"
+ storage_class = "STANDARD"
+}
+
 resource "google_compute_instance" "dareit-vm-ci" {
   name         = "dareit-vm-tf-ci"
   machine_type = "e2-medium"
