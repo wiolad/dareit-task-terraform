@@ -5,6 +5,7 @@ resource "google_storage_bucket" "static" {
  storage_class = "STANDARD"
 }
 
+
 resource "google_compute_instance" "dareit-vm-ci" {
   name         = "dareit-vm-tf-ci"
   machine_type = "e2-medium"
